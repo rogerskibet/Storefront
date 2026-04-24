@@ -12,7 +12,7 @@ function App() {
    const [searchText, setSearchText] = useState("");
 
    const { products,
-           finalProducts,
+            
           } = useProducts(searchText);
 
 
@@ -46,6 +46,9 @@ function App() {
       <Route path="/cart" element={<Cart />} />
       <Route path='/product/:id' element={<ProductDetailsPage />} />
     </Routes>
+    <footer className="text-center text-sm text-gray-500 py-6">
+      Built with React JS and Tailwind • Product data from FakeStore API • Designed for modern UX
+    </footer>
     </>
      
   );

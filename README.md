@@ -1,16 +1,45 @@
-# React + Vite
+# StoreFront
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern eCommerce frontend built with React and TailwindCSS.
+This project focuses on modern UX patterns such as skeleton loading,
+autocomplete search, responsive product grids, and persistent cart state using localStorage web API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Product search with live suggestions
+- Category filtering and sorting
+- Shopping cart with quantity controls
+- Persistent cart
+- Skeleton loading for smooth UX
+- Responsive layout for mobile and desktop
+- Product recommendation sections
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- TailwindCSS
+- React Router
+- Context API
+- FakeStore API
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://storefront.netlify.app
+
+## Screenshots
+
+(Add screenshots here)
+![Products List](image.png)
+![Search suggestion](image-1.png)
+![Skeletal Loading](image-2.png)
+![Cart](image-3.png)
+![Product Details](image-4.png)
+![Products Viewed in Small Screen, showing responsiveness](image-5.png)
+![Responsive Cart Viewed in small screen](image-6.png)
+## Installation
+
+```bash
+git clone https://github.com/rogerskibet/Storefront
+cd Storefront
+npm install
+npm run dev
