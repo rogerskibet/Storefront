@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "Modern React ecommerce UI with search, cart, and skeleton loading",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -27,7 +27,7 @@ function Navbar({ searchText, handleChange, suggestions, setSuggestions }) {
           <Link to="/" className="flex items-center gap-1.5 shrink-0">
             <Store className="w-6 h-6 text-indigo-600" />
             <h1 className="text-lg font-bold text-gray-800 tracking-tight hidden sm:block">
-             Shoply
+             Storefront
             </h1>
           </Link>
 

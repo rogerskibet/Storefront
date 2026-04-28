@@ -40,6 +40,7 @@ function ProductDetailsPage() {
     if (id) fetchProduct();
   }, [id]);
 
+  //Reccomendation FETCH
   useEffect(() => {
     if (!product) return;
     async function fetchAllRecommendations() {
