@@ -24,7 +24,11 @@ autocomplete search, responsive product grids, and persistent cart state using l
 
 ## Live Demo
 
+<<<<<<< HEAD
 https://my-frontstore.netlify.app/
+=======
+https://storefront.netlify.app
+>>>>>>> 74c158adae8c2989b614002352492fbef639b66b
 
 ## Screenshots
 
